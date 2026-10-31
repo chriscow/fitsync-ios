@@ -1,0 +1,38 @@
+{
+  "file_bytes": 18981,
+  "records": 600,
+  "sessions": 1,
+  "sport": 2,
+  "sub_sport": 7,
+  "start_unix": 1800000000,
+  "total_elapsed_s": 600,
+  "total_timer_s": 595,
+  "total_distance_m": 4940.12,
+  "total_calories": 412,
+  "with_gps": 595,
+  "with_hr": 590,
+  "with_power": 588,
+  "compressed_records": 300,
+  "first": {
+    "unix": 1800000000,
+    "lat": 33.450055019930005,
+    "lon": -112.06994466483593,
+    "alt": 335.0,
+    "hr": 120,
+    "cad": 85,
+    "pwr": 180,
+    "spd": 8.0,
+    "dist": 8.0
+  },
+  "last": {
+    "unix": 1800000599,
+    "lat": 33.47860814072192,
+    "lon": -112.02997329644859,
+    "alt": 344.20000000000005,
+    "hr": 163,
+    "cad": 77,
+    "pwr": null,
+    "spd": 9.338,
+    "dist": 4940.12
+  }
+}
