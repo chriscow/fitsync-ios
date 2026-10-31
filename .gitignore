@@ -1,6 +1,42 @@
+# macOS
 .DS_Store
+
+# Xcode project is generated from project.yml (run `xcodegen generate`)
+FitSync.xcodeproj/
+*.xcworkspace/
+
+# Xcode build output and user state
 build/
 DerivedData/
-*.xcuserstate
 xcuserdata/
-FitSync.xcodeproj/
+*.xcuserstate
+*.xcscmblueprint
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Signing material and local config — never commit
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+.env
+*.xcconfig.local
+
+# Python (Tools/)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Personal activity files; only the synthetic fixture under Fixtures/ is tracked
+*.fit
+*.gpx
+*.tcx
+!Fixtures/*.fit
